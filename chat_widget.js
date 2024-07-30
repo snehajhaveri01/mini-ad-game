@@ -244,7 +244,6 @@
           "botId": "66a15ce4ae91c5d6e81f9b61"
         })
       });
-
       const data = await response.json();
       if (data && data.chats && data.chats.length > 0) {
         const botResponse = formatBotResponse(data.chats[data.chats.length - 1].answer);
